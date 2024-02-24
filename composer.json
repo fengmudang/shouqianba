@@ -1,6 +1,12 @@
 {
     "name": "liuxg/shouqianba",
     "description": "wosai shouqianba payment",
+    "authors": [
+        {
+            "name": "liuxg",
+            "email": "lxg@7cong.cn"
+        }
+    ],
     "require": {
         "php": ">=5.6"
     },
