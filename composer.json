@@ -2,6 +2,12 @@
     "name": "liuxg/shouqianba",
     "description": "wosai shouqianba payment",
     "require": {
-        "php": ">=7.4"
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guanguans\\": "src/"
+        }
     }
 }
