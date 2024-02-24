@@ -1,3 +1,7 @@
 {
-    "name": "liuxg/shouqianba"
+    "name": "liuxg/shouqianba",
+    "description": "wosai shouqianba payment",
+    "require": {
+        "php": ">=7.4"
+    }
 }
