@@ -134,7 +134,7 @@ class sqb{
 
 	    $res = "https://qr.shouqianba.com/gateway?" . $paramsStr;
 	    //将这个url生成二维码扫码或在微信链接中打开可以完成测试
-	    file_put_contents('./runtime/log/wap_api_pro_' . date('Y-m-d') . '.txt', $res, FILE_APPEND);
+	    // file_put_contents('./runtime/log/wap_api_pro_' . date('Y-m-d') . '.txt', $res, FILE_APPEND);
 
 	    /*
 	     * https://m.wosai.cn/qr/gateway?client_sn=0007&notify_url=https://www.shouqianba.com/&operator=Obama&
@@ -217,7 +217,7 @@ class sqb{
 
 	    $response = curl_exec($ch);
 	    // var_dump(curl_error($ch));  //查看报错信息
-	    file_put_contents('./runtime/log/web_api_' . date('Y-m-d') . '.txt', date("Y-m-d H:i:s", time()) . "===" . "返回：" . $response . "\n" . "请求应用参数：" . $postfield . "\n" . "\n" . "请求url：" . $url . "\n", FILE_APPEND);
+	    // file_put_contents('./runtime/log/web_api_' . date('Y-m-d') . '.txt', date("Y-m-d H:i:s", time()) . "===" . "返回：" . $response . "\n" . "请求应用参数：" . $postfield . "\n" . "\n" . "请求url：" . $url . "\n", FILE_APPEND);
 	    // var_dump($url);
 	    //echo '<br>';
 	    // var_dump($response);
